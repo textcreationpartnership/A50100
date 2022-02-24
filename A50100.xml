@@ -1,0 +1,721 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Master Edmund Calamies leading case</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1663</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 28 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A50100</idno>
+            <idno type="STC">Wing M1061</idno>
+            <idno type="STC">ESTC R7623</idno>
+            <idno type="EEBO-CITATION">12990393</idno>
+            <idno type="OCLC">ocm 12990393</idno>
+            <idno type="VID">96318</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A50100)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 96318)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 390:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Master Edmund Calamies leading case</title>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1663.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>On his being committed to Newgate by the Lord Mayor for an unlawful sermon. Contains the warrant for his arrest.</note>
+                  <note>Title page vignette.</note>
+                  <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Calamy, Edmund, 1600-1666.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-03</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-03</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:96318:1" rendition="simple:additions"/>
+            <p>MASTER Edmund Calamies LEADING CASE.</p>
+            <p>
+               <hi>Behold how he ſeeketh a quarrel againſt me?</hi>
+            </p>
+            <figure>
+               <q>SPICANTE DEO</q>
+               <figDesc>printer's or publisher's device</figDesc>
+            </figure>
+            <p>
+               <hi>LONDON,</hi> Printed in the Year, MDCLXIII.</p>
+            <pb facs="tcp:96318:2"/>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="3" facs="tcp:96318:2"/>
+            <head>Mr. <hi>EDM<g ref="char:V">Ʋ</g>ND CALAMIE'S</hi> LEADING CASE.</head>
+            <div type="warrant">
+               <head>Lord Mayor's Officer with a Warrant.</head>
+               <p>
+                  <hi>FOraſmuch as I have received a Certificate from and under the Hand and Seal of the right
+Reve<g ref="char:EOLhyphen"/>rend Father in God,</hi> Gilbert <hi>Lord Biſhop of</hi> London, <hi>That Mr.</hi> Edmund
+Calamy <hi>late Cu<g ref="char:EOLhyphen"/>rate of the Pariſh Church of St.</hi> Mary Aldermanbury, <hi>in the ſaid
+City of</hi> London <hi>being (according as is provi<g ref="char:EOLhyphen"/>ded and enacted by the late Act of Parliament
+made for the <g ref="char:V">Ʋ</g>niformity of Publick Prayers, &amp;c.) by reaſon of his In<g ref="char:EOLhyphen"/>conformity diſabled
+to Preach or Read any Lecture or Ser<g ref="char:EOLhyphen"/>mon in any Church or Chappel within his MAJESTIES</hi>
+                  <pb n="4" facs="tcp:96318:3"/> 
+                  <hi>Realm of</hi> England, <hi>or Dominion of</hi> Wales, <hi>and Town of</hi>
+Berwick <hi>upon</hi> Tweed, <hi>and continuing and remaining ſtill ſo diſabled, did ſince
+the Feaſt of St.</hi> Bartholomew <hi>laſt paſt, upon two ſeveral daies, viz. on Tueſday
+the twenty ſixth day of</hi> Auguſt <hi>laſt paſt, and upon Sunday the twenty eighth day
+of</hi> December, 1662. <hi>in the ſaid Church of St.</hi> Mary Aldermanbury, <hi>preſume, and
+take upon himſelf (without any lawful approbation and licence thereunto) to Preach or Read, and
+did Preach or Read two ſeveral Sermons or Lectures publickly before the Con<g ref="char:EOLhyphen"/>gregation, then, and
+there in the ſaid Church aſſembled, contrary to, and in contempt of Authority of the ſaid
+Act of Parliament: Theſe are therefore (as I am required by the ſaid Act) in His MAJESTIES Name
+to will and command you to receive into your Cuſtody within the Gaol of</hi> Newgate, <hi>the
+Body of the ſaid</hi> Edmund Calamy <hi>brought unto you herewith, and him there detein for the
+offence aforeſaid, for the Term of three Months from the day of the date hereof, without Bayl or
+Mainpriſe, accord<g ref="char:EOLhyphen"/>ing to the tenor and effect of the Act of Parliament afore<g ref="char:EOLhyphen"/>ſaid. And this
+ſhall be your Warrant therein, Dated this fifth day of</hi> January, 1662.</p>
+            </div>
+            <div type="testimony">
+               <stage>
+                  <hi>Church-Members.</hi> FAr be this from you, good Sir, ſpare your ſelf, and retire
+un<g ref="char:EOLhyphen"/>til this Calamity be overpaſt. <hi>Come my people, enter thou into thy Chambers,</hi>
+                  <note place="margin">
+                     <hi>Iſ.</hi> 26. 20.</note> 
+                  <hi>and ſhut thy doores about thee: hide thy
+ſelf as it were for a little moment, until the indignation be overpaſt.</hi>
+               </stage>
+               <sp>
+                  <speaker>Mr. Calamy,</speaker>
+                  <p>
+                     <hi>What mean you to weep, and to break mine heart? for I am ready not to be bound</hi>
+                     <note place="margin">Act. 21. 13</note> 
+                     <hi>onely, but to dye for the Lord Jeſus.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <pb n="5" facs="tcp:96318:3"/>
+                  <speaker>Brethren.</speaker>
+                  <p>Now you will not be perſwaded, we muſt ceaſe, and ſay, <hi>The will of the Lord be</hi>
+                     <note place="margin">Acts 21. 14.</note> 
+                     <hi>done.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Calamy.</speaker>
+                  <p>The Lord Jeſus did not hide him<g ref="char:EOLhyphen"/>ſelf when he was to be <hi>taken</hi> for me, but ſaid,
+<hi>Here I am:</hi> I will not hide my ſelf now I am to be taken <hi>for him,</hi> but will
+ſay, <hi>Here I am:</hi> only I ſhall entreat ſome of your Company, to my Lord Mayor, to whom
+you may give an ac<g ref="char:EOLhyphen"/>count of that daies proceeding.</p>
+               </sp>
+               <sp>
+                  <speaker>Brethren.</speaker>
+                  <p>With all our hearts<hi>:—</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Lord Mayor.</speaker>
+                  <p>As I would upon other occaſi<g ref="char:EOLhyphen"/>ons have been glad, ſo really I am now ſorry to ſee you Mr.
+<hi>Calamy:</hi> equally ſorry I am, that I muſt inflict ſuch a puniſhment (as I am obliged
+by the Act) upon a Perſon of your Years and Profeſſion; and that ſuch a Perſon ſhould
+deſerve it: In charity I could not think your Conſcience could have allowed you at a<g ref="char:EOLhyphen"/>ny time,
+ſo open an affront to the moſt Solemn Eſtabliſhment of Authoritie: I reaſon I could not
+think your prudence could have allowed it at this time, when His Majeſtie was ſo full of
+gracious thoughts towards you, and all ſober men of your way.</p>
+               </sp>
+               <sp>
+                  <speaker>Calamy.</speaker>
+                  <p>In prudence I ſhould not <hi>at this time</hi> have diſpleaſed his Majeſtie: In
+Conſcience I cannot at any time diſpleaſe God.</p>
+               </sp>
+               <sp>
+                  <speaker>Lord Mayor.</speaker>
+                  <p>I hope His Majeſties Govern<g ref="char:EOLhyphen"/>ment is ſo juſt, ſo moderate, ſo agreeable to the great
+Principles of Religion and Reaſon,
+<pb n="6" facs="tcp:96318:4"/> upon which mankind joyn in a Society, or Chriſtians in a Church; that there is
+no di<g ref="char:EOLhyphen"/>ſcreet and knowing Perſon put upon the ſad Dilemma of either provoking God, or
+oppo<g ref="char:EOLhyphen"/>ſing the Authority ordained of God.</p>
+               </sp>
+               <sp>
+                  <speaker>Calamy.</speaker>
+                  <p>Neceſſity is layd upon us, yea, <hi>woe unto us if we preach not the Goſpel.</hi> That you
+<note place="margin">1 Cor. 9. 16</note> may have a reaſon of that which was done by me, and ſo
+may not think I did it unwarranta<g ref="char:EOLhyphen"/>bly, I offer your Conſideration what hath been much upon my
+ſpirit, from the 5. of the <hi>Acts,</hi> As the Apoſtles taught the People, the Prieſts, the
+Sadduces, the Captain of the Tem<g ref="char:EOLhyphen"/>ple, came upon them, <hi>being grieved</hi> that they taught the
+People<hi>:</hi> And they layd hands on them, and layd them in hold againſt the next
+day<hi>:</hi> Howbeit, many of them which heard the Word believed, and the number of the men was
+about five thouſand. And when they had called them before them, they a ked them by what Power, or
+in what Name have you done this? Then <hi>Peter</hi> filled with the Holy Ghoſt, ſaid unto
+them<hi>:</hi> Ye Rulers of the People, and Elders of <hi>Iſrael,</hi> if we be ex<g ref="char:EOLhyphen"/>amined this
+day of the good deed that we <note place="margin">Acts 14.</note> have done; be it known unto you
+all, we have done it it in the Name of the Lord Jeſus Chriſt. And when they ſaw the
+bold<g ref="char:EOLhyphen"/>neſſe of <hi>Peter</hi> and <hi>John</hi> they marvelled, and they took knowledg of them.
+But when they had commanded them to go aſide out
+<pb n="7" facs="tcp:96318:4"/> of the Councel, they conferred among them<g ref="char:EOLhyphen"/>ſelves, ſaying, What ſhall we do
+to theſe men; for that indeed notable things have been done by them, is manifeſt to all them
+that: dwell at <hi>Jeruſalem,</hi> and we cannot deny it But that it ſpread no further among
+the Peo<g ref="char:EOLhyphen"/>ple, let us ſtraitly threaten them that they ſpeak henceforth to no man in this Name.
+And they called them, and commanded them, That they ſhould not ſpeak at all in the Name of
+Jeſus. But <hi>Peter</hi> and <hi>John</hi> anſwer<g ref="char:EOLhyphen"/>ed and ſaid unto them: Whether it be right
+in the ſight of God, to hearken unto God more than unto you, judge ye; for we cannot but ſpeak
+the things which we have ſeen and heard: So when they had further threatned them, they let them
+go, finding nothing how they might puniſh them, <hi>becauſe of the People.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>L. B. L.</speaker>
+                  <p>If it were not our buſineſſe rather to manifeſt our obedience to the <hi>Act of
+Uni<g ref="char:EOLhyphen"/>formity</hi> in performing duty, then to diſpute your diſobedience in neglecting yours, we
+could eaſily ſhow you how many waies you have wreſted this Scripture, as the unlearned and
+unſtable wreſt them, to their own dam<g ref="char:EOLhyphen"/>nation<hi>:</hi> and how wide your caſe is from
+theirs.</p>
+                  <p>For 1. They were ſilenced by no Law; you are ſilenced by a Law: they could ſay with St.
+<hi>Paul, Acts</hi> 25. 8. for themſelves, and an<g ref="char:EOLhyphen"/>ſwer, <hi>That neither againſt the Law of
+the Jewes,</hi>
+                     <pb n="8" facs="tcp:96318:5"/> 
+                     <hi>nor againſt the Temple, nor against</hi> Caeſar, <hi>have we offended at
+all.</hi> You muſt confeſſe, That a<g ref="char:EOLhyphen"/>gainſt the Law of the Nation, againſt the Church, and
+againſt <hi>Caeſar,</hi> in many things have you offended all.</p>
+                  <p>2. They were forbid to preach in the Name of Jeſus. You are onely forbid to <hi>Rebel</hi> in
+the Name of Ieſus<hi>:</hi> They were reſtrained from publiſhing the Truth: You are
+reſtrain<g ref="char:EOLhyphen"/>ed onely from publiſhing Errors.</p>
+                  <p>3. There the whole Miniſtry was to be ſilen<g ref="char:EOLhyphen"/>ced: Here you onely, and a few others, are
+ſu<g ref="char:EOLhyphen"/>ſpended<hi>:</hi> So that now Chriſt is preached, and you may rejoice.</p>
+                  <p>4. They were ſuſpended by the prevailing power of oppreſſions<hi>:</hi> You are
+ſilenced by the reaſonable power of your own Repreſen<g ref="char:EOLhyphen"/>tatives in Parliament. Jewes ſilenced
+them without a Law; you by a Law, which the men you have choſen have made, have ſilenced your
+ſelves.</p>
+                  <p>5. A neceſſity which lay upon them, who were called of God, to reveal the Goſpel which was
+hid from Ages; doth not ly upon you, who many of you, are not ſo much as called by man to preach
+that Word, which for ma<g ref="char:EOLhyphen"/>ny years, God be thanked, hath dwelt rich<g ref="char:EOLhyphen"/>ly among us.</p>
+                  <p>6. They loved not their life unto the death, that they might preach the Goſpel; you love your
+opinion ſo well, that you will rather
+<pb n="9" facs="tcp:96318:5"/> not preach the Goſpel then hear it: they would not be ſilenced to ſave
+their lives, you ſilence your ſelves to ſave your repute and eſteem.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>O add not reproach unto affliction. O Sir, we would not have left our callings and ſtati<g ref="char:EOLhyphen"/>ons
+for fear of death, we muſt now leave them for fear of that which is worſe then death: we would
+<hi>willing<g ref="char:EOLhyphen"/>ly die</hi> rather then not ſerve the Lord in our calling<hi>:</hi> we muſt rather
+not ſerve the Lord in our calling then ſin.</p>
+               </sp>
+               <sp>
+                  <speaker>An honeſt man.</speaker>
+                  <p>Really I am afraid that while you think you avoid ſin by refuſing Ceremonies which are
+indifferent, you committed ſin in neglecting your calling, which was neceſſary.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>Let every man be fully perſwaded in his own mind<hi>:</hi> what is but indifferent in your
+apprehen<g ref="char:EOLhyphen"/>ſion, was ſinfull in mine, and every man muſt give an account of himſelf.</p>
+               </sp>
+               <sp>
+                  <speaker>B. S.</speaker>
+                  <p>It is not what you think of the thing impoſed can ſecure your conſcience, but what they
+are<hi>:</hi> that which is good remains good, and that which is evil, evil<hi>:</hi> and that in
+the very ſame degree of good and evil as it was before, neither better nor worſe, any mans
+particular judgement or opinion thereof not<g ref="char:EOLhyphen"/>withſtanding.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>Thats true indeed, yet what is good or indifferent in it ſelf, If I am perſwaded it is evil,
+it is evil unto me: to him that eſteemeth any thing to be unlawfull to him it is unlawfull,
+<hi>Rom.</hi> 4. 14.</p>
+               </sp>
+               <sp>
+                  <speaker>B. S.</speaker>
+                  <p>To him that thinketh a thing unlawfull, and is at liberty, whether he doth it or no, to him it
+is unlawfull<hi>:</hi> but to him that thinketh a thing unlaw<g ref="char:EOLhyphen"/>full, but yet is enjoyned by lawfull
+authority to do, to him if he hath not a clear rule to the contrary, it is lawfull<hi>:</hi>
+Whatſoever is commanded us by thoſe whom God hath ſet over us either in Church,
+Common-wealth, or Family, which is not evidently contra<g ref="char:EOLhyphen"/>ry to the Law and will of God, ought to be
+receiv<g ref="char:EOLhyphen"/>ved
+<pb n="10" facs="tcp:96318:6"/> and obeyed no otherwiſe, then as if God him<g ref="char:EOLhyphen"/>ſelf had commanded it;
+becauſe God himſelfe hath commanded us to obey the Higher Powers, and to ſubmit our ſelves
+to their Ordinances, <hi>Rom.</hi> 13. 1. 1 <hi>Pet.</hi> 2. 23.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>I hope I muſt not go againſt my Conſcience within me, to comply mith my Supe<g ref="char:EOLhyphen"/>riours above
+me.</p>
+               </sp>
+               <sp>
+                  <speaker>B. S.</speaker>
+                  <p>What a ſtrange thing is this! that when the bleſſed Apoſtle commanded you to obey for
+<hi>conſcience ſake,</hi> you ſhould diſobey, and that for <hi>conſcience ſake</hi>
+too<hi>:</hi> Your Governors charge you upon your Conſcience to be obedient, and you pre<g ref="char:EOLhyphen"/>tend
+your conſcience to be free from that ſubjecti<g ref="char:EOLhyphen"/>on: It is a ſad thing that you have brought
+your ſelves and other poor ſouls to ſuch a ſtrait between two ſins, and you can by no
+means poſ<g ref="char:EOLhyphen"/>ſible avoid both, as long as you perſiſt in this way; for if you do the things
+commanded, you go a<g ref="char:EOLhyphen"/>gainſt the perſwaſion of your own conſcience, and that is a great
+ſin; and if you do them not, you diſobey lawfull Authority, and that is a ſin too.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>Truely neither fancy, faction, nor humor makes me not to comply, but meerly for fear of
+offending God<hi>:</hi> And if after the beſt means uſed to ſatisfie my ſelfe; as prayer to
+God, diſcourſe, ſtudy, I was not able to apprehend the lawfullneſſe of what was required;
+if it be my un<g ref="char:EOLhyphen"/>happineſſe to be in an errour, ſurely men will have no reaſon to be angry
+with me in this world, and I hope God will pardon me in the next.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Sprin.</hi>
+                  </speaker>
+                  <p>When I was called upon either to conforme to the Laws for Uniformity, or to leave my Miniſtry,
+I asked of my ſelf two things, Whe<g ref="char:EOLhyphen"/>ther I would rather ſuffer death then uſe the things
+impoſed in Church profeſſing the foundation, and urging them as things indifferent, not
+preſſing them as binding conſcience in themſelves, or as needfull
+<pb n="11" facs="tcp:96318:6"/> to ſalvation? And whether the execution of my Mi<g ref="char:EOLhyphen"/>niſtry (which was
+preſſed upon my conſcience with a wo, if I neglected it) ſhould be as dear to me as my
+life.</p>
+               </sp>
+               <sp>
+                  <speaker>P. <hi>S.</hi>
+                  </speaker>
+                  <p>Good God, to ſee to what paſs ſmall errors have brought us! how difference of
+apprehenſion hath brought forth difference of judgement, and dif<g ref="char:EOLhyphen"/>ference of judgement hath
+brought forth difference of practice, and diſagreement of affection. The dif<g ref="char:EOLhyphen"/>ference of practice
+hath moved Authority to ſilence and ſuppreſs refuſers of Conformity. The diſagree<g ref="char:EOLhyphen"/>ment in
+affection doth move you who are deprived, to ſpeak and act againſt perſons in Authority;
+where<g ref="char:EOLhyphen"/>by in the event the courſe of the Goſpel is interrup<g ref="char:EOLhyphen"/>ted, and of Popery enlarged; the
+friends of <hi>Sion</hi> are grieved, the enemies rejoyce; the enemy of Mankind is gratified, and
+the Lord is diſpleaſed; the Church is rent with ſchiſm, the Truth ſcandalized by
+diſſen<g ref="char:EOLhyphen"/>tion; the Miniſters undone by loſs of living, and the unity of brethren living in
+the ſame houſe, profeſſing the ſame faith and rejoycing in the ſame hope, is pul<g ref="char:EOLhyphen"/>led in
+pieces, and this like to continue God knows how long.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>It is ſad that Magiſtrates ſhould en<g ref="char:EOLhyphen"/>joyn ſuch things as ſhould cauſe ſuch
+diviſions as cauſe <hi>great thoughts of heart.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>B. S.</speaker>
+                  <p>It is ſad indeed that Subjects cannot ſubmit to ſuch things as are enjoyned for peace,
+order, and decency.</p>
+               </sp>
+               <sp>
+                  <speaker>L. M.</speaker>
+                  <p>I wonder you ſhould not conſider how dangerous it ſhould be to affront the moſt ſolemn
+in<g ref="char:EOLhyphen"/>junction of the whole Nation, a Law ſo univerſally deſired, ſo deliberately reſolved
+on, ſo ſeriouſly preſ<g ref="char:EOLhyphen"/>ſed, as the greateſt ſecurity of Church or State.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>I was ſeveral times perſecuted for owning his Majeſtyes Authority and Intereſt, I did
+not think I ſhould live to be impriſoned for oppoſing it.</p>
+               </sp>
+               <sp>
+                  <speaker>Sr. <hi>T. E.</hi>
+                  </speaker>
+                  <p>The more favour his Majeſty had for you for former ſervice, the more ſorry he is that you
+<pb n="12" facs="tcp:96318:7"/> have forfeited it by your preſent indiſcretion. His Majeſtie thought
+<hi>that Mr.</hi> Calamy <hi>would not have done ſo, of any man in</hi> England.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>Really I did not do it upon mine own head, but upon the requeſt of divers honourable and
+worthy perſons who were otherwiſe like to be diſap<g ref="char:EOLhyphen"/>pointed of a morning Sermon.</p>
+               </sp>
+               <sp>
+                  <speaker>Sr. <hi>R. B.</hi>
+                  </speaker>
+                  <p>It is generally reported, and upon the ex<g ref="char:EOLhyphen"/>traordinary concourſe of people to your Church, as
+generally believed that it was deſigned before hand; ſeveral Citizens inviting one another to
+your Church to hear you preach.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>It might be a deſign upon me, it was no deſign by me: this is not the firſt time we have
+been trapanned.</p>
+               </sp>
+               <sp>
+                  <speaker>T. F.</speaker>
+                  <p>There are few that know you that can allow you ſo much indiſcretion as to yeild to the
+private importunities of a few Gentlemen, againſt the pub<g ref="char:EOLhyphen"/>lick authority of a whole
+Parliament.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>I may ſay (with reverence to the Lord Jeſus, of whom it is written) that I had
+com<g ref="char:EOLhyphen"/>paſſion of the multitude, who were as ſheep without a ſhepherd.</p>
+               </sp>
+               <sp>
+                  <speaker>E. W.</speaker>
+                  <p>You muſt have taught the people better by your ſilence, then by your Sermon<hi>:</hi> your
+obedience had been better then ſacrifice<hi>:</hi> the miſguided throng had been better taught
+by your cheerfull ſubmiſſion to authority, then by your indiſcreet diſcourſe againſt
+it. When you had been importuned to preach, you ſhould have ſaid, I pray you go home and learn
+what that meaneth, <hi>Submit your ſelves to every Ordinance of man for the Lords ſake, whether
+it be to the King as ſu<g ref="char:EOLhyphen"/>pream, or unto Governors as unto them who are ſent by him for the
+puniſhment of evil doers, and for the praiſe of them that do well, for ſo is the will of God;
+that with well doing we may put to ſilence the ignorance of fooliſh men, as free: and uſing
+your liberty as a cloak of licenti<g ref="char:EOLhyphen"/>ouſneſſe,</hi> 1. Pet. 2. 13, 14, 15, 16. wherefore <hi>ye
+muſt needs be</hi>
+                     <pb n="13" facs="tcp:96318:7"/> 
+                     <hi>ſubject not only for wrath, but for conſcience ſake,</hi> Ro: 13:
+5:</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>I hope an offence of this nature may be paſſed by, being ſo innocent in the deſign of
+it, ſo harmleſſe in the conſequence of it.</p>
+               </sp>
+               <sp>
+                  <speaker>VV. F.</speaker>
+                  <p>How harmleſſe it is in the deſign of it, be it between you and your God and ſoul: how
+dange<g ref="char:EOLhyphen"/>rous it is in the conſequence of it, any man may gueſſe that conſiders what
+encouragement it may give your party, if you are not puniſhed; and what offence it may give them
+if you are. If you are win<g ref="char:EOLhyphen"/>ked at, what ſay others, are we not winked at too, without reſpect
+of perſons. If you are puniſhed, then they ſay, we are perſecuted. It is ſad that you are
+become ſuch an occaſion of offence between the King and his good people.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>I hope I am not ſo unhappy.</p>
+               </sp>
+               <sp>
+                  <speaker>T. M.</speaker>
+                  <p>You were looked upon as the fitteſt man to break the Ice, being a man ſo much eſteemed for
+your own worth, and ſo much intereſſed in honoura<g ref="char:EOLhyphen"/>ble friends and acquaintance. For as
+formerly <hi>Cart<g ref="char:EOLhyphen"/>wright</hi> was encouraged by the E. of <hi>Leceſter, Travers</hi> was
+entertained by the L. Treaſurer <hi>Cecill, VValſing<g ref="char:EOLhyphen"/>ham</hi> was owned by Secretary
+<hi>VValſingham;</hi> ſo you ſtir up your honourable women, and look for the fa<g ref="char:EOLhyphen"/>vour of many
+excellent perſonages.</p>
+               </sp>
+               <sp>
+                  <speaker>M. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>I hope his Majeſties gracious Declara<g ref="char:EOLhyphen"/>tion may excuſe me.</p>
+               </sp>
+               <sp>
+                  <speaker>F. H.</speaker>
+                  <p>When my Lord of <hi>London</hi> acquainted his Majeſtie with what you had done, his Majeſtie
+ſaid, <hi>I am ſure he hath no encouragement to it from my decla<g ref="char:EOLhyphen"/>ration:</hi> His Majeſtie
+never intended any favour of this nature to you<hi>:</hi> and I fear this paſſage will
+ob<g ref="char:EOLhyphen"/>abſtruct that favour he intended.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>So far I hope may this paſſage be from prejudicing his Sacred Majeſty againſt us, that
+it may rather incline him to favour us<hi>:</hi> conſidering the neceſſity he hereby may
+perceive of our ſervice, and the reaſonableneſs of his indulgence.</p>
+               </sp>
+               <sp>
+                  <pb n="14" facs="tcp:96318:8"/>
+                  <speaker>M. <hi>O.</hi>
+                  </speaker>
+                  <p>Flatter not your ſelf with theſe vain thoughts; his Majeſty may pity you, but he doth not
+want you. God hath ſent his word, and great are the company of Preachers.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>Let not the rigour of one Seſſion re<g ref="char:EOLhyphen"/>ſtrain thoſe whom the indulgence of another may
+releaſe:</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <hi>N.</hi> P.</speaker>
+                  <p>It is a queſtion whether the ſame Parliament may repeal the act that made it: whether
+thoſe things that have been over-ruled, may be debated by the ſame Houſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>I hope that what a Popiſh Prieſt may do without check, a Proteſtant Miniſter may do
+with<g ref="char:EOLhyphen"/>out impriſonment.</p>
+               </sp>
+               <sp>
+                  <speaker>R. B.</speaker>
+                  <p>Neither the one nor the other may be endu<g ref="char:EOLhyphen"/>red to ſeduce the people, and with fair words to
+de<g ref="char:EOLhyphen"/>ceive the hearts of the ſimple, if any man teach any other doctrine, and conſent not to
+wholeſome words, &amp;c.</p>
+               </sp>
+               <sp>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>I hope his Majeſty will uſe his intereſt with the Parliament.</p>
+               </sp>
+               <sp>
+                  <speaker>A. <hi>C.</hi>
+                  </speaker>
+                  <p>You of all men ſhould not expect it, who complained of his late Majeſties protecting
+Delin<g ref="char:EOLhyphen"/>quents againſt his Parliament.</p>
+               </sp>
+               <sp>
+                  <speaker>A <hi>Brother.</hi>
+                  </speaker>
+                  <p>It is an unheard of courſe that the Church ſhould be governed by Civil Laws, and
+Mini<g ref="char:EOLhyphen"/>ſters puniſhed by Law-men.</p>
+               </sp>
+               <sp>
+                  <speaker>An honeſt man.</speaker>
+                  <p>Since the reformation, by your leave and the Papiſts, we have owned his Majeſty under
+Chriſt, Defender of our Faith, and Law-maker of our Church: the Church directs, the State
+eſtabliſheth.</p>
+               </sp>
+               <sp>
+                  <speaker>Good women.</speaker>
+                  <p>Alas, that they ſhould uſe the good man ſo unworthily and hardly.</p>
+               </sp>
+               <sp>
+                  <speaker>A. <hi>B.</hi>
+                  </speaker>
+                  <p>When Mr. <hi>Calamy</hi> and Mr. <hi>Love,</hi> &amp;c. were under reſtraint, and word was
+ſent to the Army in <hi>Scotl.</hi> concerning it, <hi>Harriſon</hi> and others ſaid, <hi>If
+godly men tranſgreſſe the Law, they ſhould be puniſhed by the Law.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Good w.</speaker>
+                  <p>Alas, what harm hath the good man done?</p>
+               </sp>
+               <sp>
+                  <pb n="15" facs="tcp:96318:8"/>
+                  <speaker>R. L.</speaker>
+                  <p>In ſhort be abuſed the <hi>Kings Authority,</hi> he hath broken the ſettled Law, he hath
+vilified the power of Parliam. he hath diſturbed the publick peace, he ſtands to the principles
+of the Rebellion, and provokes another.</p>
+               </sp>
+               <sp>
+                  <speaker>Good w.</speaker>
+                  <p>I wonder what he preached?</p>
+               </sp>
+               <sp>
+                  <speaker>A. <hi>B.</hi>
+                  </speaker>
+                  <p>He preached that <hi>glory was departing from our Iſr.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Good w.</speaker>
+                  <p>Theſe courſes will bring us to another war.</p>
+               </sp>
+               <sp>
+                  <speaker>A. <hi>B.</hi>
+                  </speaker>
+                  <p>Not ſo we hope, What, will you endanger the publick peace rather then be reſtrained? will
+you not ſcruple at Rebellion, who ſcruple at a few ceremonies? what would you do if you had
+power in your own hands, that are ſo bold without it? ſhall the <hi>minor</hi> part impoſe
+upon the <hi>major?</hi> ſhall a novel fancy bear down an Apoſtolicall inſtitution? ſhall a
+<hi>private opinion</hi> conteſt with a <hi>publick Law.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>G. w.</speaker>
+                  <p>Alas that our teachers are removed into corners.</p>
+               </sp>
+               <sp>
+                  <speaker>A. <hi>B.</hi>
+                  </speaker>
+                  <p>Our dangers begin at the <hi>Pulpit,</hi> without the aid of ſeditions Sermons, I do believe
+the ſtrife had ne<g ref="char:EOLhyphen"/>ver come to bloud: he was a wiſe man that ſaid, <hi>The ſin<g ref="char:EOLhyphen"/>gle
+impriſonment of</hi> Crofton <hi>hath quieted that party more then all the multiplied and
+tranſcendent favors of his Majeſty.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Good w.</speaker>
+                  <p>Theſe are ſad times.</p>
+               </sp>
+               <sp>
+                  <speaker>A. B.</speaker>
+                  <p>Say not that the former times were better then theſe, for thou doſt not enquire wiſely
+concerning this thing: when you guided the times others complained; now others guide the times, you
+complain; when ſhall we be quiet, I think it is our beſt way to <hi>reſt where we
+are</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Good w.</speaker>
+                  <p>Good man, he hath diſcharged his conſcience.</p>
+               </sp>
+               <sp>
+                  <speaker>A. B.</speaker>
+                  <p>He hath it may be diſcharged his conſcience, and my L. M. muſt diſcharge his; he who in
+order to the making of good Chriſtians, makes bad ſubjects, hath a zeal indeed, but it is
+ſeditious; a Religion, but it is Re<g ref="char:EOLhyphen"/>bellion:</p>
+               </sp>
+               <sp>
+                  <speaker>G. w</speaker>
+                  <p>Now you ſuffer for righteouſnes ſake, happy is he.</p>
+               </sp>
+               <sp>
+                  <speaker>A. B.</speaker>
+                  <p>Yea, but what glory have you, if when ye are buf<g ref="char:EOLhyphen"/>feted for your faults you take it patiently.
+Let none of you ſuffer as a murderer, or as a thief, or as an evil doer, or as a buſie-body in
+other mens matter.</p>
+               </sp>
+               <sp>
+                  <pb n="16" facs="tcp:96318:9"/>
+                  <speaker>Mr. <hi>Calamy.</hi>
+                  </speaker>
+                  <p>May I but be reſpited until to morrow:</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <hi>L.</hi> M.</speaker>
+                  <p>Yes, with all my heart upon your, and your friends word.</p>
+               </sp>
+               <sp>
+                  <speaker>Sr. <hi>I. B.</hi>
+                  </speaker>
+                  <p>Remember how you prayed, preached, and what you did <hi>Iune</hi> 6. 1641. and what was done
+<hi>Ian.</hi> 6. 1644. and I pray ſpeak not with <hi>Argyle</hi> as you go home.</p>
+               </sp>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">Jeremiah 37. 38.</cell>
+                        <cell role="label">
+                           <hi>Calamy.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>1 <hi>This man ſeeketh not the welfare of this people, but their hurt.</hi>
+                        </cell>
+                        <cell>1 This man envieth the eſtabliſhment of this Nati<g ref="char:EOLhyphen"/>on, and ſeeks its hurt.</cell>
+                     </row>
+                     <row>
+                        <cell>2 <hi>Thou falleſt away to the Caldeans.</hi>
+                        </cell>
+                        <cell>2 Thou falleſt away to the ſeparation at <hi>Hemſted:</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>3 <hi>Its falſe, I fall not to the Caldeans.</hi>
+                        </cell>
+                        <cell>3 It is falſe, I kept no Conventicle at <hi>Hemſted.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>4 Jeremiah <hi>ſaid, what have I done againſt thee or a<g ref="char:EOLhyphen"/>gainſt thy ſervants that I
+ſhould be put in priſon.</hi>
+                        </cell>
+                        <cell>4 Mr. <hi>Calamy</hi> ſaid, what have I done worthy of im<g ref="char:EOLhyphen"/>priſonment?</cell>
+                     </row>
+                     <row>
+                        <cell>5 <hi>Let my ſupplication I pray thee, be accepted before thee O King.</hi>
+                        </cell>
+                        <cell>5 Let my petition be re<g ref="char:EOLhyphen"/>ceived by your moſt excel<g ref="char:EOLhyphen"/>lent Majeſtie.</cell>
+                     </row>
+                     <row>
+                        <cell>6 <hi>Then took they</hi> Jeremiah <hi>and ſent him to the dungeon.</hi>
+                        </cell>
+                        <cell>6 Then took they M. <hi>Ca<g ref="char:EOLhyphen"/>lamy</hi> &amp; ſent him to <hi>Newgate</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>7 <hi>VVhen Ebedmelech the Ethiopian, the chamberlain of the Kings houſe heard that they
+put Ieremiah in the dun<g ref="char:EOLhyphen"/>geon, he ſpake to the King, ſaying, my Lord the King, theſe men have
+done evil in all they have done to Ieremiah the Prophet whom they have caſt into the dungeon,
+&amp;c.</hi>
+                        </cell>
+                        <cell>7 Now when L. Ch. heard that Mr. <hi>Calamy</hi> was in pri<g ref="char:EOLhyphen"/>ſon, he went to the King, and
+ſaid, may it pleaſe your Majeſty, it is pity that re<g ref="char:EOLhyphen"/>verend Mr. <hi>Calamy</hi> ſhould be
+ſent to <hi>Newgate.</hi>
+                        </cell>
+                     </row>
+                  </table>
+               </p>
+            </div>
+            <epigraph>
+               <q>Paena ad unum, terror ad omnes.</q>
+            </epigraph>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
